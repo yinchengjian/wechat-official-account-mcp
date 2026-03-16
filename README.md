@@ -2,7 +2,7 @@
 
 一个为 AI 应用提供微信公众号 API 集成的 MCP (Model Context Protocol) 服务项目。
 
-**作者**: xwang152-jack <xwang152@163.com>
+**作者**: yinchengjian <32393878+yinchengjian@users.noreply.github.com>
 **更新日期**: 2025年02月16日
 
 ## 🚀 项目概述
@@ -73,7 +73,7 @@ wechat-mcp mcp -a <your_app_id> -s <your_app_secret>
 
 ```bash
 # 1. 克隆项目
-git clone https://github.com/xwang152-jack/wechat-official-account-mcp.git
+git clone https://github.com/yinchengjian/wechat-official-account-mcp.git
 cd wechat-official-account-mcp
 
 # 2. 安装依赖
@@ -568,9 +568,9 @@ DB_PATH=./data/wechat-mcp.db
 
 如果您遇到问题或有建议，请：
 
-1. 查看 [Issues](https://github.com/xwang152-jack/wechat-official-account-mcp/issues) 页面
+1. 查看 [Issues](https://github.com/yinchengjian/wechat-official-account-mcp/issues) 页面
 2. 创建新的 Issue
-3. 联系项目维护者: xwang152-jack <xwang152@163.com>
+3. 联系项目维护者: yinchengjian <32393878+yinchengjian@users.noreply.github.com>
 
 ## 🙏 致谢
 
