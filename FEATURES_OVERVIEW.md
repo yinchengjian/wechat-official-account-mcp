@@ -297,11 +297,11 @@ npm install wechat-official-account-mcp@latest
 
 ## 📞 技术支持
 
-- GitHub Issues: https://github.com/xwang152-jack/wechat-official-account-mcp/issues
-- 邮箱: xwang152@163.com
+- GitHub Issues: https://github.com/yinchengjian/wechat-official-account-mcp/issues
+- 邮箱: 32393878+yinchengjian@users.noreply.github.com
 
 ---
 
 **版本**: v2.0.0
 **发布日期**: 2025-02-16
-**维护者**: xwang152-jack
+**维护者**: yinchengjian

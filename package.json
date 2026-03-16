@@ -11,7 +11,7 @@
     "typescript",
     "official-account"
   ],
-  "author": "xwang152-jack <xwang152@163.com>",
+  "author": "yinchengjian <32393878+yinchengjian@users.noreply.github.com>",
   "license": "MIT",
   "bin": {
     "wechat-mcp": "./dist/src/cli.js"
@@ -29,11 +29,11 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/xwang152-jack/wechat-official-account-mcp.git"
+    "url": "https://github.com/yinchengjian/wechat-official-account-mcp.git"
   },
-  "homepage": "https://github.com/xwang152-jack/wechat-official-account-mcp#readme",
+  "homepage": "https://github.com/yinchengjian/wechat-official-account-mcp#readme",
   "bugs": {
-    "url": "https://github.com/xwang152-jack/wechat-official-account-mcp/issues"
+    "url": "https://github.com/yinchengjian/wechat-official-account-mcp/issues"
   },
   "scripts": {
     "build": "npm run clean && tsc",
