@@ -50,7 +50,7 @@ async function handleAuthTool(context: WechatToolContext): Promise<WechatToolRes
         return {
           content: [{
             type: 'text',
-            text: `Access Token 信息:\n- Token: ${tokenInfo.accessToken}\n- 剩余有效时间: ${expiresIn} 秒\n- 过期时间: ${new Date(tokenInfo.expiresAt).toLocaleString()}`,
+            text: `Access Token 信息:\n- Token: ${tokenInfo.accessToken.substring(0, 8)}****${tokenInfo.accessToken.substring(tokenInfo.accessToken.length - 4)}\n- 剩余有效时间: ${expiresIn} 秒\n- 过期时间: ${new Date(tokenInfo.expiresAt).toLocaleString()}`,
           }],
         };
       }
@@ -62,7 +62,7 @@ async function handleAuthTool(context: WechatToolContext): Promise<WechatToolRes
         return {
           content: [{
             type: 'text',
-            text: `Access Token 已刷新:\n- 新 Token: ${tokenInfo.accessToken}\n- 有效时间: ${expiresIn} 秒\n- 过期时间: ${new Date(tokenInfo.expiresAt).toLocaleString()}`,
+            text: `Access Token 已刷新:\n- 新 Token: ${tokenInfo.accessToken.substring(0, 8)}****${tokenInfo.accessToken.substring(tokenInfo.accessToken.length - 4)}\n- 有效时间: ${expiresIn} 秒\n- 过期时间: ${new Date(tokenInfo.expiresAt).toLocaleString()}`,
           }],
         };
       }
@@ -129,7 +129,7 @@ async function handleAuthMcpTool(args: any, apiClient: WechatApiClient): Promise
         return {
           content: [{
             type: 'text',
-            text: `Access Token 信息:\n- Token: ${tokenInfo.accessToken}\n- 剩余有效时间: ${expiresIn} 秒\n- 过期时间: ${new Date(tokenInfo.expiresAt).toLocaleString()}`,
+            text: `Access Token 信息:\n- Token: ${tokenInfo.accessToken.substring(0, 8)}****${tokenInfo.accessToken.substring(tokenInfo.accessToken.length - 4)}\n- 剩余有效时间: ${expiresIn} 秒\n- 过期时间: ${new Date(tokenInfo.expiresAt).toLocaleString()}`,
           }],
         };
       }
@@ -139,7 +139,7 @@ async function handleAuthMcpTool(args: any, apiClient: WechatApiClient): Promise
         return {
           content: [{
             type: 'text',
-            text: `Access Token 已刷新:\n- 新 Token: ${tokenInfo.accessToken}\n- 有效时间: ${expiresIn} 秒\n- 过期时间: ${new Date(tokenInfo.expiresAt).toLocaleString()}`,
+            text: `Access Token 已刷新:\n- 新 Token: ${tokenInfo.accessToken.substring(0, 8)}****${tokenInfo.accessToken.substring(tokenInfo.accessToken.length - 4)}\n- 有效时间: ${expiresIn} 秒\n- 过期时间: ${new Date(tokenInfo.expiresAt).toLocaleString()}`,
           }],
         };
       }
